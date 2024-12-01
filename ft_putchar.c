@@ -5,15 +5,16 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: abjellal <abjellal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/21 21:20:36 by abjellal          #+#    #+#             */
-/*   Updated: 2024/11/21 21:21:10 by abjellal         ###   ########.fr       */
+/*   Created: 2024/11/21 10:20:36 by abjellal          #+#    #+#             */
+/*   Updated: 2024/11/30 21:11:06 by abjellal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void ft_putchar(char c, int *count)
+void	ft_putchar(char c, int *count)
 {
-    write(1, &c, 1);
-    (*count)++;
+	write(1, &c, 1);
+	(*count)++;
 }
+
