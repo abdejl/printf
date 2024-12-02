@@ -6,7 +6,7 @@
 #    By: abjellal <abjellal@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/27 20:00:28 by abjellal          #+#    #+#              #
-#    Updated: 2024/11/30 21:10:31 by abjellal         ###   ########.fr        #
+#    Updated: 2024/12/02 11:05:12 by abjellal         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ OBJ = $(SRC:%.c=%.o)
 
 all: $(NAME)
 
-$(NAME) : $(OBJ) ft_printf.h
+$(NAME) : $(OBJ)
 		$(AR) $(NAME) $(OBJ)
 clean:
 	$(RM) $(OBJ)

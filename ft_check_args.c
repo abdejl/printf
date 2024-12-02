@@ -25,7 +25,7 @@ void	ft_check_args(va_list args, char type, int *count)
 	else if (type == 'u')
 		ft_unsigned_putnbr(va_arg(args, unsigned int), count);
 	else if (type == 'x' || type == 'X')
-		ft_Print_hexa(va_arg(args, unsigned int), type, count);
+		ft_print_hexa(va_arg(args, unsigned int), type, count);
 	else if (type == 'p')
 		ft_print_ptr(va_arg(args, void *), 0, count);
 }
