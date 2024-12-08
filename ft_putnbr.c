@@ -6,7 +6,7 @@
 /*   By: abjellal <abjellal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 19:02:04 by abjellal          #+#    #+#             */
-/*   Updated: 2024/11/30 21:10:55 by abjellal         ###   ########.fr       */
+/*   Updated: 2024/12/08 09:20:07 by abjellal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,6 @@ void	ft_putnbr(int nb, int *count)
 // #include <stdio.h>
 // int main()
 // {
-//    int count = ft_printf("%d\n", 1234);
-//     printf("Characters printed: %d\n", count);
+//    int count = ft_printf("%d", 1234);
+//     printf("%d\n", count);
 // }

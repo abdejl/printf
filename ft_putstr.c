@@ -6,7 +6,7 @@
 /*   By: abjellal <abjellal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 17:34:32 by abjellal          #+#    #+#             */
-/*   Updated: 2024/12/02 12:52:30 by abjellal         ###   ########.fr       */
+/*   Updated: 2024/12/08 08:30:39 by abjellal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,6 @@ void	ft_putstr(char *str, int *count)
 // #include<stdio.h>
 // int main()
 // {
-//     int count = ft_printf("%s\n","hello", count);
+//     int count = ft_printf("%s","hello", count);
 //     printf("%d\n", count);
 // }
